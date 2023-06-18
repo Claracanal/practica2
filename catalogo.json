@@ -1,0 +1,92 @@
+{
+    "lista_juan": {
+        "productos": [
+            {
+                "nombre": "Arroz",
+                "unidades": 1,
+                "habitual": false
+            },
+            {
+                "nombre": "Leche",
+                "unidades": 6,
+                "habitual": true
+            },
+            {
+                "nombre": "Pan",
+                "unidades": 2,
+                "habitual": true
+            }
+        ]
+    },
+    "supermercados": [
+        {
+            "nombre": "Supermercado Samsung 1",
+            "direccion": "Calle Samsung 1",
+            "geolocalizacion": {
+                "latitud": 11.11,
+                "longitud": 11.11
+            },
+            "productos": [
+                {
+                    "nombre": "Leche",
+                    "oferta": true,
+                    "periodo_vigencia": "2023-08-20",
+                    "unidad_medida": "litro",
+                    "precio": 0.90,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Pan",
+                    "oferta": false,
+                    "periodo_vigencia": "",
+                    "unidad_medida": "Unidad",
+                    "precio": 0.50,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Huevos",
+                    "oferta": false,
+                    "periodo_vigencia": "",
+                    "unidad_medida": "docena",
+                    "precio": 2.50,
+                    "adquirido": true
+                }
+            ]
+        },
+        {
+            "nombre": "Supermercado Samsung 2",
+            "direccion": "Calle Samsung 2",
+            "geolocalizacion": {
+                "latitud": 22.22,
+                "longitud": 22.22
+            },
+            "productos": [
+                {
+                    "nombre": "Huevos",
+                    "oferta": false,
+                    "periodo_vigencia": "",
+                    "unidad_medida": "docena",
+                    "precio": 2.70,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Arroz",
+                    "oferta": true,
+                    "periodo_vigencia": "2023-04-22",
+                    "unidad_medida": "kilogramo",
+                    "precio": 0.99,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Pasta",
+                    "oferta": true,
+                    "periodo_vigencia": "2023-08-25",
+                    "unidad_medida": "kilogramo",
+                    "precio": 1.15,
+                    "adquirido": true
+                }
+            ]
+        }
+    ]
+}
+  
